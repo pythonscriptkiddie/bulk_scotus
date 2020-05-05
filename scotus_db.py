@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 
 from datetime import datetime, date
 
-from sqlalchemy import Column, Integer, Numeric, String, Table, ForeignKey, Date, func, DateTime
+from sqlalchemy import Column, Integer, Numeric, String, Table, ForeignKey, Date, func, DateTime, Boolean
 from sqlalchemy.orm import relationship, synonym
 from sqlalchemy.ext.declarative import declarative_base, synonym_for
 from sqlalchemy.ext.associationproxy import association_proxy
@@ -51,10 +51,26 @@ roundupsections_table = Table('roundupsections', Base.metadata,
            primary_key=True)
 )
 
+#To make a database of Supreme Court decisions, I must be selective about the info included
+
 class Case(Base):
     '''The actual Supreme Court cases'''
     __tablename__ = 'cases'
     case_id = Column(Integer(), primary_key=True)
+    case_name = Column(String(200), Index=True, nullable=False)
+    justice = Column(Integer, ForeignKey(), 'justices.justice_id')
+    date = Column(Date(), nullable=False)
+    db_id_number = Column(String(200), nullable=False) #the ID number for the internal database
+    
+class Justice(Base):
+    __tablename__ = 'justices'
+    justice_id = Column(Integer(), primary_key=True)
+    name = Column(String(200))
+    start_date = Column(Date(), nullable=False)
+    end_date = Column(Date(), nullable=True)
+    chief_justice = Column(Boolean()) #True if chief justice, False if associate justice
+    cases = relationship("Case", back_populates="justice")
+    
 
 class Roundup(Base):
     '''The roundups we export'''

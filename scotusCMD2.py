@@ -271,7 +271,7 @@ class ScotusCMD(cmd2.Cmd):
             with open(filename) as in_file:
                 print(filename)
                 new_case = json.load(in_file)
-                print(new_case['html_with_citations'])
+                print('New case: ', new_case['html_with_citations'])
             #print('new case:' ,new_case.keys())
             filename_choice = btc.read_text('enter filename to save or "." to cancel: ')
             if filename_choice == '.':
