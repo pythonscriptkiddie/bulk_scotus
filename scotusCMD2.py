@@ -65,7 +65,10 @@ class ScotusCMD(cmd2.Cmd):
         self.background_color = 'white'
         self.foreground_color = 'black'
         self.prompt='ScotusSearch'
-        self.intro = 'Welcome to ScotusSearch'
+        self.intro = cmd2.style(text='Welcome to ScotusSearch',
+                                bg=self.background_color,
+                                fg=self.foreground_color,
+                                bold=True)
         self.default_path = '/Users/thomassullivan/projects/GitHub/bulk_scotus/'
         self.register_postloop_hook(self.reset_path)
         self.add_settable(cmd2.Settable('foreground_color', str,
@@ -227,8 +230,20 @@ class ScotusCMD(cmd2.Cmd):
             self.do_help('search')
     
     def do_exit(self, arg):
-        print('Exiting ScotusCMD')
-        sys.exit()
+        self.poutput(cmd2.style('Are you sure you want to quit? ',
+                                bg=self.background_color,
+                                fg=self.foreground_color, bold=False))
+        exit_choice = self.select([(True, 'yes'), (False, 'no')])
+        if exit_choice == True:
+            self.poutput(cmd2.style('Existing ScotusCMD',
+                                    bg=self.background_color,
+                                    fg=self.foreground_color,
+                                    bold=True))
+            sys.exit()
+        elif exit_choice == False:
+            self.poutput('Returning to main menu')
+        #print('Exiting ScotusCMD')
+        #sys.exit()
         
 if __name__ == '__main__':
     #import sys
