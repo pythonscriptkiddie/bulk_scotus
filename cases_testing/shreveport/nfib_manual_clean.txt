@@ -149,13 +149,6 @@ date as imposing a tax on those who do not buy that product. Be-
 cause “every reasonable construction must be resorted to, in order to
 save a statute from unconstitutionality,” Hooper v. California, 155
 U. S. 648, 657, the question is whether it is “fairly possible” to inter-
-4            NATIONAL FEDERATION OF INDEPENDENT 
-
-                     BUSINESS v. SEBELIUS
-
-                           Syllabus
-
-
     pret the mandate as imposing such a tax, Crowell v. Benson, 285
     U. S. 22, 62. Pp. 31–32.
        4. CHIEF JUSTICE ROBERTS delivered the opinion of the Court with
@@ -200,10 +193,6 @@ U. S. 648, 657, the question is whether it is “fairly possible” to inter-
     the Constitution by threatening States with the loss of their existing
     Medicaid funding if they decline to comply with the expansion.
     Pp. 45–58.
-                   Cite as: 567 U. S. ____ (2012)                     5
-
-                              Syllabus
-
       (a) The Spending Clause grants Congress the power “to pay the
 Debts and provide for the . . . general Welfare of the United States.”
 Art. I, §8, cl. 1. Congress may use this power to establish cooperative
@@ -248,13 +237,6 @@ to participate in the Medicaid expansion. Pp. 55–58.
    6. JUSTICE GINSBURG, joined by JUSTICE SOTOMAYOR, is of the view
 that the Spending Clause does not preclude the Secretary from with-
 holding Medicaid funds based on a State’s refusal to comply with the
-6            NATIONAL FEDERATION OF INDEPENDENT 
-
-                     BUSINESS v. SEBELIUS
-
-                           Syllabus
-
-
     expanded Medicaid program. But given the majority view, she
     agrees with THE CHIEF JUSTICE’s conclusion in Part IV–B that the
     Medicaid Act’s severability clause, 42 U. S. C. §1303, determines the
@@ -279,6 +261,8 @@ and dissenting in part, in which SOTOMAYOR, J., joined, and in which
 BREYER and KAGAN, JJ., joined as to Parts I, II, III, and IV. SCALIA,
 KENNEDY, THOMAS, and ALITO, JJ., filed a dissenting opinion. THOMAS,
 J., filed a dissenting opinion.
+                       
+                       
                        Cite as: 567 U. S. ____ (2012)                              1
 
                          Opinion of ROBERTS, C. J.
@@ -324,10 +308,6 @@ and an opinion with respect to Parts III–A, III–B, and
 III–D.
   Today we resolve constitutional challenges to two provi-
 sions of the Patient Protection and Affordable Care Act of
-2        NATIONAL FEDERATION OF INDEPENDENT
-                 BUSINESS v. SEBELIUS
-                 Opinion of ROBERTS, C. J.
-
 2010: the individual mandate, which requires individuals
 to purchase a health insurance policy providing a mini-
 mum level of coverage; and the Medicaid expansion, which
@@ -364,10 +344,6 @@ ers, because “[t]he enumeration presupposes something not
 enumerated.” Gibbons v. Ogden, 9 Wheat. 1, 195 (1824).
 The Constitution’s express conferral of some powers
 makes clear that it does not grant others. And the Federal
-                 Cite as: 567 U. S. ____ (2012)            3
-
-                   Opinion of ROBERTS, C. J.
-
 Government “can exercise only the powers granted to it.”
 McCulloch, supra, at 405.
    Today, the restrictions on government power foremost in
@@ -404,10 +380,6 @@ thorization to act. The States thus can and do perform
 many of the vital functions of modern government—
 punishing street crime, running public schools, and zoning
 property for development, to name but a few—even though
-4        NATIONAL FEDERATION OF INDEPENDENT
-                 BUSINESS v. SEBELIUS
-                 Opinion of ROBERTS, C. J.
-
 the Constitution’s text does not authorize any government
 to do so. Our cases refer to this general power of govern-
 ing, possessed by the States but not by the Federal Gov-
@@ -444,10 +416,6 @@ merce,” “persons or things in interstate commerce,” and
 “those activities that substantially affect interstate com-
 merce.” Morrison, supra, at 609 (internal quotation marks
 omitted). The power over activities that substantially
-                  Cite as: 567 U. S. ____ (2012)            5
-
-                    Opinion of ROBERTS, C. J.
-
 affect interstate commerce can be expansive. That power
 has been held to authorize federal regulation of such seem-
 ingly local matters as a farmer’s decision to grow wheat
@@ -484,10 +452,6 @@ end be legitimate, let it be within the scope of the constitu-
 tion, and all means which are appropriate, which are
 plainly adapted to that end, which are not prohibited, but
 consist with the letter and spirit of the constitution, are
-6        NATIONAL FEDERATION OF INDEPENDENT
-                 BUSINESS v. SEBELIUS
-                 Opinion of ROBERTS, C. J.
-
 constitutional.” McCulloch, 4 Wheat., at 421.
    Our permissive reading of these powers is explained in
 part by a general reticence to invalidate the acts of the
@@ -523,10 +487,6 @@ Congress that transgress those limits. Marbury v. Madi-
 son, supra, at 175–176.
    The questions before us must be considered against the
 background of these basic principles.
-                 Cite as: 567 U. S. ____ (2012)           7
-
-                   Opinion of ofOBERTS, C. J.
-                     Opinion R the Court
 
                              I
    In 2010, Congress enacted the Patient Protection and
